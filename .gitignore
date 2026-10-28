@@ -1,0 +1,38 @@
+# === .NET / Visual Studio ===
+
+# Katalogi kompilacji
+bin/
+obj/
+
+# Wyniki publikacji / build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+out/
+
+# Pliki użytkownika Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Pakiety NuGet (przywracane przez restore)
+packages/
+*.nupkg
+
+# Pliki tymczasowe i logi
+*.log
+*.tmp
+TestResults/
+
+# System
+.DS_Store
+Thumbs.db
